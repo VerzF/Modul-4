@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="jquery-3.6.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $(".sembunyi1").click(function() {$("#foto1").hide("fast") });
+    $(".tampil1").click(function() {$("#foto1").show("fast") });
+    });
+    $(document).ready(function(){
+    $(".sembunyi2").click(function() {$("#foto2").hide("fast") });
+    $(".tampil2").click(function() {$("#foto2").show("fast") });
+    });
+    $(document).ready(function(){
+    $(".sembunyi3").click(function() {$("#foto3").hide("fast") });
+    $(".tampil3").click(function() {$("#foto3").show("fast") });
+    });
+</script>
+</head>
+<body>
+    <button class="sembunyi1">Sembunyikan</button>
+    <button class="tampil1">Tampilkan</button>
+    <center><p><img id="foto1" src="Logo UPN.jpg"></p></center>
+    <button class="sembunyi2">Sembunyikan</button>
+    <button class="tampil2">Tampilkan</button>
+    <center><p><img id="foto2" src="Allendra Donny Irawan.png"></p></center>
+    <button class="sembunyi3">Sembunyikan</button>
+    <button class="tampil3">Tampilkan</button>
+    <center><p><img id="foto3" src="Allendra.png"></p></center>
+</body>
+</html>
